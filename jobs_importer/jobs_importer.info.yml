@@ -1,0 +1,5 @@
+name: Jobs Importer
+type: module
+description: 'This module provides importing jobs from xml.'
+core_version_requirement: ^9
+package: custom

@@ -1,0 +1,6 @@
+services:
+  job_importer.commands:
+    class: \Drupal\jobs_importer\Commands\JobImporter
+    arguments: ['@http_client', '@serializer', '@entity_type.manager', '@logger.factory', '@file.repository']
+    tags:
+        - { name: drush.command }
